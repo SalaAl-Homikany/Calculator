@@ -9,8 +9,8 @@
 </head>
 <body>
     <div class ="calc">
-        <input type="text" placeholder="0">
-        <input type="text" placeholder="0">
+        <input type="text" placeholder="0" id="calc" readonly>
+        <input type="text" placeholder="0" id="result" readonly>
         <button onclick=" Clear()" style ="background-color:#541d6d  ;">Cl</button>
         <button onclick=" Delete()">Del</button>
         <button onclick=" display('%')">%</button>
@@ -30,5 +30,8 @@
         <button onclick=" display('0')">0</button>
         <button onclick=" display('.')">.</button>
         <button onclick=" calc('=')" style="width: 120px; background-color: rgb(216, 18, 61)  ;">=</button>
+    </div>
+    
+    <script src="main.js"></script>
 </body>
 </html>
